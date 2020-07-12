@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mis Contactos</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">E-Mail</string>
+    <string name="ejemploEmail">ejemplo@ejemplo.com</string>
+    <string name="descripcion">Descripcion del Contacto</string>
+    <string name="lblCalendar">Fecha de nacimiento</string>
+    <string name="botonCalendario">mm/dd/yyyy</string>
+    <string name="botonSiguiente">Siguiente</string>
+    <string name="tituloConfirmar">Confirmar Datos</string>
+    <string name="descripcionConfrimar">Descripcion</string>
+    <string name="botonEditar">Editar Datos</string>
+    <string name="errorCalendario">Escoga una fecha de nacimiento</string>
+    <string name="error">Este campo no puede estar vacio</string>
+    <string name="emailInvalido">Ingrese un correo valido</string>
+    <string name="telefonoInvalido">Ingrese un telefono valido</string>
+    <string name="fechaInvalida">Ingrese una fecha valida</string>
+    <string name="fechaVacia">La fecha no puede estar vacia</string>
+</resources>

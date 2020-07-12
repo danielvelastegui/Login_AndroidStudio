@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmacion"
+    android:orientation="vertical"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="20sp"
+    android:layout_marginBottom="20sp">
+
+    <TextView
+        android:id="@+id/tvConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloConfirmar"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/tvInfoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20sp">
+
+    <TextView
+        android:id="@+id/tvFechaConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCalendar"/>
+
+    <TextView
+        android:id="@+id/tvInfoFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="@string/botonCalendario"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp">
+
+        <TextView
+            android:id="@+id/tvEmailConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"/>
+
+        <TextView
+            android:id="@+id/tvInfoEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="@string/ejemploEmail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp">
+
+        <TextView
+            android:id="@+id/tvDescripcionConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcionConfrimar"/>
+
+        <TextView
+            android:id="@+id/tvInfoDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="@string/botonEditar"/>
+
+
+</LinearLayout>
